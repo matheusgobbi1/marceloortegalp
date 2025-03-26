@@ -1,0 +1,35 @@
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 480px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+} 
