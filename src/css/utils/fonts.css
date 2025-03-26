@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;500;600;700&family=Arial:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-primary: 'Futura', sans-serif;
+    --font-secondary: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+}
+
+html {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+}
+
+body {
+    font-family: var(--font-secondary);
+} 

@@ -10,17 +10,26 @@
     transition: all 0.3s ease;
     text-align: center;
     width: 100%;
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .primary-button:hover {
     background-color: var(--color-primary-dark);
     transform: translateY(-2px);
+    text-decoration: none;
 }
 
 .primary-button:active {
     transform: translateY(0);
+}
+
+.primary-button.auto-width {
+    width: auto;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media (max-width: 768px) {
